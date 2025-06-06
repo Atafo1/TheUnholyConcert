@@ -1,0 +1,160 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navlink{
+    background-color: purple;
+    width: 100%;
+    display: flex;
+    color: #00ffff; 
+    padding-top: 0px;
+    margin-top: 0px;
+   top: 0;
+   left: 0;
+    justify-content: center;
+    
+    position: fixed;
+}
+.navlink a{
+    text-decoration: none;
+   padding-left: 20px;
+   color: #00ffff; 
+   font-weight: 900;
+   font-size: larger;
+   padding-bottom: 15px;
+   font-family:'Customfont5', sans-serif;
+}
+section{
+    /* background-image: url(aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-position: center; */
+   background: linear-gradient(to right,#f0f4f8);
+ 
+   height:30vw;
+   padding-top: 55px;
+   margin-bottom: 0px;
+}
+@font-face {
+   font-family: 'Customfont5';
+   src: url('Poppins-Regular.ttf')
+   format('truetype');
+   font-weight:normal;
+   font-style:normal;
+}
+.help{
+    justify-items: center;
+    display: flex;
+}
+.help1{
+     font-family:'Customfont5', sans-serif;
+     background-color: white;
+     margin-right:60px ;
+     margin-left: 60px;
+     justify-items: center;
+     width: 50%;
+     font-weight: 900;
+}
+.help2{
+     font-family:'Customfont5', sans-serif;
+     background-color: white;
+     justify-items: center;
+      margin-right:40px ;
+     margin-left: 40px;
+     width: 50%;
+     font-weight: 900;
+     font-size: large;
+}
+.mail{
+    height: 40vw;
+    background-color: #f3f0f9; /* a very light purple-gray tint */
+    padding-top: 0px;
+    margin-top: 0px;
+    justify-content: center;
+    font-family:'Customfont5', sans-serif;
+     font-weight: 900;
+     font-size: large;
+    justify-items: center;
+}
+.mail h1{
+    margin-top: 0px;
+    font-size: 4vw;
+}
+form{
+    background-color: white;
+    padding: 10px 50px 60px 50px;
+    border-radius: 10px;
+}
+@font-face {
+   font-family: 'Customfont1';
+   src: url('UnifrakturCook-Bold.ttf')
+   format('truetype');
+   font-weight:normal;
+   font-style:normal;
+}
+.footer{
+   display: flex;
+  
+   
+}
+footer{
+   height: 22vw;
+   background-color:purple;
+   margin-top: 0px;
+  
+}
+.unholy1{
+   font-family: 'Customfont1',sans-serif;
+   font-size: 9vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+   color: #00ffff;
+   text-shadow: #0f3b0f;
+   
+}
+.ptags{
+   font-size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:   #00ffff;
+   width: 33%;
+   justify-items: center;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+.ptags a{
+    text-decoration: none;
+   
+   text-align: center;
+   color:   #00ffff;
+  justify-self: center;
+   justify-items: center;
+    justify-content: center;
+    
+} 
+.footer1{
+   width: 33%;
+   
+}
+.footer3{
+   width: 33%;
+   color: #00ffff;
+   font-size: 10px;
+   text-decoration: none;
+   
+}
+.ydm{
+   font-size: 1.3vw;
+   font-weight: 900;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer3 p{
+  
+   padding-left: 60px;
+   color: #00ffff;
+   font-size: 20px;
+}
+
+.footer3 img{
+    height: 4vw;
+  
+  }
