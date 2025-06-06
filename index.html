@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    
+</head>
+ <style>
+    /* Base: Mobile-first (default) */
+body {
+ padding-right: 0px;
+ margin-right: 0px;
+}
+  .ticket-button {
+     background-color: #6A0DAD;
+border-radius: 20px;
+font-weight: 900;
+color: white;
+border: 1px solid #6A0DAD;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: large;
+      cursor: pointer;
+     
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    /* Highlight style for selected button */
+    .ticket-button.active {
+      background-color: white;
+      color: #6A0DAD;
+      border: 6px solid #6A0DAD;
+      border-color: #6A0DAD;
+    }
+    
+/* Tablets (≥768px) */
+/* @media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+} */
+  .tick{
+    font-size: 8vw;
+  }
+  .footer3 img{
+    height: 4vw;
+  
+  }
+
+
+
+
+.perf{
+  height: 45vw;
+}
+ @media (max-width: 768px) {
+  .perf {
+    height:45vh;
+  }
+} 
+
+
+
+ @media (max-width: 768px) {
+  .para {
+    padding-top: 8rem;
+    font-size:1rem;
+  }
+}
+ @media (max-width: 599px) {
+  .para {
+    padding-top: 8rem;
+    font-size:1rem;
+  }
+}
+.font1{
+  font-size: 9rem;
+}
+@media (max-width: 768px) {
+  .font1{
+  
+    font-size:5rem;
+    /* text-decoration: underline; */
+  }
+}
+@media (max-width: 599px) {
+  .font1{
+  
+    font-size:4rem;
+    /* text-decoration: underline; */
+  }
+}
+
+
+
+/* Media query for small screens (phones) */
+@media (max-width: 768px) {
+  body{
+    padding: 0px;
+    margin:0px
+  }
+  .nav{
+    padding-left: 1rem;
+  }
+   section{
+    height:250vh;
+  } 
+  .con1, .con2 {
+    flex-direction: column; /* stack items vertically */
+    padding-top: 2rem;
+    /* padding-left: 5rem; */
+    justify-content: center;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+    
+  }
+ .sec1{
+  width: 50%;
+  margin-bottom: 25px;
+   justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec2{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec3{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec4{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec5{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec6{
+  width: 50%;
+   margin-bottom: 25px;
+   margin-right: 20px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            justify-self: center;
+ }
+ .con2{
+  top: -100px;
+ }
+ .unholy{
+  font-size: 100px;
+ }
+ .land{
+  padding-top: 4px;
+ }
+ body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ydm{
+    font-size: 12px;
+  }
+  footer{
+     height: 30vh;
+  }
+    .unholy1{
+      font-size:5vh;
+    }
+  .ptags{
+    font-size: 15px;
+  }
+  .footer1{
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .footer3{
+    justify-items: center;
+  }
+   .maintick{
+   height: 1100px;
+   background-color: whitesmoke;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+} 
+  .tick{
+    font-size: 60px;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+  .ticketing {
+    flex-direction: column;
+    height: 20vh;
+    padding-left: 10vh;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+   .ticket1{
+  width: 100%; 
+ padding-top: 800px;
+   /* padding-left: 5vh; */
+  /* padding-bottom: 5vh;  */
+
+   justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 10vh;
+    
+  } 
+   
+  .ticket2{
+   width: 100%;
+   margin-left: 10vh;
+   padding: 10px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+   .new{
+    height: 400px;
+    justify-self: center;
+    
+  }
+  .footer3 p{
+    font-size: 11px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  body {
+   
+    margin: 0px;
+    padding: 0px;
+  }
+   .nav{
+    padding-left: 1rem;
+  }
+  section{
+    height:200vh;
+  }
+  .con1, .con2 {
+    flex-direction: column; /* stack items vertically */
+    padding-top: 2rem;
+    /* padding-left: 5rem; */
+    justify-content: center;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+    
+  }
+ .sec1{
+  width: 50%;
+  margin-bottom: 25px;
+   justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec2{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec3{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec4{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec5{
+  width: 50%;
+   margin-bottom: 25px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 20px;
+ }
+ .sec6{
+  width: 50%;
+   margin-bottom: 25px;
+   margin-right: 20px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            justify-self: center;
+ }
+ .con2{
+  top: -100px;
+ }
+ .unholy{
+  font-size: 100px;
+ }
+ .land{
+  padding-top: 4px;
+ }
+ body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ydm{
+    font-size: 12px;
+  }
+  footer{
+     height: 30vh;
+  }
+    .unholy1{
+      font-size:4vh;
+    }
+  .ptags{
+    font-size: 15px;
+  }
+  .footer1{
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .footer3{
+    justify-items: center;
+  }
+   .maintick{
+   height: 1100px;
+   background-color: whitesmoke;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+} 
+  .tick{
+    font-size: 60px;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+  .ticketing {
+    flex-direction: column;
+    height: 20vh;
+    padding-left: 10vh;
+     justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+   .ticket1{
+  width: 100%; 
+ padding-top: 800px;
+   /* padding-left: 5vh; */
+  /* padding-bottom: 5vh;  */
+
+   justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-right: 10vh;
+    
+  } 
+   
+  .ticket2{
+   width: 100%;
+   margin-left: 10vh;
+   padding: 10px;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+  }
+   .new{
+    height: 400px;
+    justify-self: center;
+    
+  }
+   .footer3 p{
+    font-size: 11px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+ 
+}
+
+@media (max-width:400px){
+  .unholy{
+    font-size: 80px;
+  }
+  .second{
+    font-size: 25px;
+  }
+  .nav a{
+    font-size: 25px;
+  }
+  .main{
+    padding-top: 40px;
+  }
+  .perf{
+    height: 200px;
+  }
+}
+
+</style> 
+<body style="padding: 0px; margin: 0px;">
+    <div class="land">
+        <div class="nav">
+            
+            <a href="index.html">Home</a>
+            <a style="padding-left: 30px;" href="about.html">About</a>
+            <a  style="padding-left: 30px; cursor: pointer;" href="contactus.html">Contact</a>
+        </div>
+        <div class="main">
+            <center>
+            <h1 class="unholy">UNHOLY</h1>
+            <h3 class="second"  style="font-weight: bolder;">A Night Of Sound and Sin</h3>
+            <button class="butt"><a>Ready?</a></button>
+            <p class="para">The Unholy concert brought to you by DMA Entertainment<br>terms and conditions advised.</p>
+        </center>
+        </div>
+    </div>
+    <div class="perf">
+      <CENTER><h1 style="font-family: 'Customfont3',sans-serif;  margin-top: 0.1rem; margin-bottom: 0px;">PERFORMANCES</h1></CENTER>
+      <div class="row1" style="padding-top: 0px; padding-bottom: 0px;">
+        <h1 style="width: 50% ;margin-top: 0px; margin-bottom: 0px;">FIREMAN</h1>
+        <h1 style="width: 50%;margin-top: 0px; margin-bottom: 0px;">BURNERKING</h1>
+        
+      </div>
+      <div class="row2">
+        <h1 style="width: 50%;margin-top: 0px; margin-bottom: 0px;">WIZZY</h1>
+        <h1 style="width: 50%;margin-top: 0px; margin-bottom: 0px;">BOLA</h1>
+         <h1 style="width: 50%; margin-top: 0px; margin-bottom: 0px;" >RIBENA</h1>
+      </div>
+      <div class="row3">
+        <h1 style="width: 28%;margin-top: 0px; margin-bottom: 0px;">FEELZ</h1>
+       <h1 style="width: 39%;margin-top: 0px; margin-bottom: 0px;">NINIKOLA</h1>
+           <h1 style="width: 33%; margin-top: 0px; margin-bottom: 0px;">JOHNNY</h1>
+      </div>
+       <div class="row4">
+    
+          <h1  style=" width: 100%; margin-top: 0px; margin-bottom: 0px; margin-left: 16vw;">ODUMUDUYELLOW</h1>
+       
+      </div>
+       
+    </div>
+    <section>
+      <center><h1 class="font1" style="font-family: 'Customfont4',sans-serif;  color: #FFFACD; margin-top: 0px;">FOOD VENDORS</h1></center>
+       <div class="con1">
+          <div class="sec1">
+            <center> <img class="img1" src="ivan-torres-MQUqbmszGGM-unsplash.jpg" style="height: 18vw; "></center> 
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">Jordan's Pizza</p>
+          </div>
+          <div class="sec2">
+              <img src="amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg" style="height: 18.2vw;">
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">Burgerlord</p>
+          </div>
+          <div class="sec3">
+              <img src="dustin-tramel-KuuQczwD4IA-unsplash.jpg" style="height: 18vw;">
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">Suya Academy</p>
+          </div>
+      </div>
+      <div class="con2">
+ <div class="sec4">
+            <center> <img src="samuel-bryngelsson--cUN1wIYlw8-unsplash.jpg" style="height: 18vw; "></center> 
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">SusanEats</p>
+          </div>
+          <div class="sec5">
+              <img src="umair-ali-asad-rRFE8agWJNw-unsplash.jpg" style="height: 18.2vw;">
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">Tiakola Drinks</p>
+          </div>
+          <div class="sec6">
+              <img src="sergio-alves-santos-PeDrafNlY2Y-unsplash.jpg" style="height: 18vw;">
+              <p style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; text-align: center; color: black;">Meleta Drinks</p>
+          </div> 
+      </div>
+    </section>
+
+
+    <div class="maintick" >
+      <center><h2 class="tick" style="margin-bottom: 0px; margin-top: 0px; font-family:Customfont4, sans-serif;  ">Buying Tickets?</h2></center>
+      <div class="ticketing">
+     <div class="ticket1" >
+         <img class="new" src="New unholy fest ticket.png" > 
+      </div>
+      <div class="ticket2">
+      <center> <button class="ticket-button" id="vip" data-price="100" onclick="selectTicket(this) "><h3>VIP+Backstage pass<br>$100</h3></button><br>
+      <button class="ticket-button" id="Regular" style="margin-top: 5px; padding: 10px 50px;"  data-price="30" onclick="selectTicket(this) "><h3>Regular<br>$30</h3></button>
+      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 900">Click above to select ticket</p>
+      <form>
+        <label style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 900">Number of tickets</label><br>
+        <select id="quantity" style="padding: 10px 50px; font-weight: 900; font-size: 20px;">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select><br>
+        
+        
+      </form>
+    <h1 id="total"  style="font-family: Verdana, Geneva, Tahoma, sans-serif; ;">Total:$0</h1>
+    <button class="check">Checkout</button></center>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <footer >
+    <div class="footer">
+      <div class="footer1">
+        <h1 class="unholy1">UNHOLY</h1>
+      </div>
+      <div class="ptags">
+        <p><a href="index.html">Home</a></p>
+       <p><a href="about.html">About<a></p>
+       <p><a href="contactus.html">Contact</a></p>
+      </div>
+       <div class="footer3">
+         <p style=" font-family: Verdana, Geneva, Tahoma, sans-serif;">Follow Our</p>
+        <div style="display: flex;">
+           
+            <div>
+            <img style=" padding: 5px;" src="xicon.png"> 
+            </div>
+
+            <div>
+            <img style="  padding: 5px;" src="igicon.png">   
+            </div>
+
+            <div>
+            <img  style="  padding: 5px;" src="snapicon.png">   
+            </div>
+
+            <div>
+            <img style=" padding: 5px;" src="whatsappicon.png">   
+          </div>
+        </div>
+      </div>
+    </div>
+   <center><hr style="width: 95%; margin-top: 3vw;"></center> 
+  <center> <p style="color: #00ffff; " class="ydm">Dma Entertainment 2025<br></p></center>
+    </footer> 
+</body>
+</html>
